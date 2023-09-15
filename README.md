@@ -43,22 +43,30 @@ We receive taxi trip data from the technology service providers (TSPs) that prov
 metering in each cab, **this data will be the base of our dataset** in our analysis.
 
 
-
 ## **Stakeholder Statement**
 
 Taxi companies may be interested in understanding demand patterns, identifying popular pickup/drop-off locations, and pricing strategies to maximize revenue. They may also want to improve service quality and efficiency based on customer behavior analysis.
 
 ## **Goals Setting & Problem Statement**
 
-This project analysis generally aims to provide insights on the day-to-day operations of NYC taxi, 
-    
     1. How to optimize revenues and streamlining operations?  
    
     2. How to to better serve customers by undertanding their behaviours?  
    
     3. How to optimize the distribution of drivers?
-    
-# Data Undertanding
+
+# What's covered in the analysis?
+
+This project analysis generally aims to provide insights on the day-to-day operations of NYC taxi. Starting from a raw dataset that's been provided which includes the information about taxi trips collected from the taxis. In general, the steps done in the project will consists of:
+1. Data Preparation
+2. Data Cleaning
+3. Adding Additional Data Features
+4. Data Analysis
+5. Conclusion & Key Findings
+6. Reccomendations
+
+
+# Dataset Glossary
 ### NYC TLC Taxi Trip Data
 
 | Columns       | Description |  Notes| 
