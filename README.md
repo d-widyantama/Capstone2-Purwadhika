@@ -57,7 +57,32 @@ This project analysis generally aims to provide insights on the day-to-day opera
     2. How to to better serve customers by undertanding their behaviours?  
    
     3. How to optimize the distribution of drivers?
+    
+# Data Undertanding
+### NYC TLC Taxi Trip Data
 
+| Columns       | Description |  Notes| 
+| :---          |    :----   | :---- | 
+| 'VendorID'    | LPEP provider that provided the record.|  |
+| 'lpep_pickup_datetime',   | Starting time from taxi meter
+| 'lpep_dropoff_datetime',  | Ending time from taxi meter
+| 'store_and_fwd_flag',     | Trip record are saved and send after signal received | Y= store n forwad N=Not store n forward  
+| 'RatecodeID',             | The final rate code in effect at the end of the trip.   *There are different rates for different type of trips & airport destination.*|  1=Standard rate, 2=JFK (Airport rate), 3=Newark   (Newark Country), 4=Nassau or Westchester (County), 5=Negotiated fare , 6=Group ride|
+| 'PULocationID',           | Pickup location, using Taxi Zone code
+| 'DOLocationID',           | Dropoff location, using Taxi Zone code
+| 'passenger_count',        | # of passengers, driver manually input, max 6 by law
+| 'trip_distance',          | Distance per trip, in miles
+| 'fare_amount',            | The time and distance fare is calculated by the meter. includes the $0.50 and $1 rush hour and overnight charges
+| 'extra',                  | only includes the $0.50 and $1 rush hour and overnight charges.
+| 'mta_tax',                | $0.50 MTA tax that is automatically triggered based on the metered rate in use.
+| 'tip_amount',             | tips from customers, tips from customers with CC payment
+| 'tolls_amount',           | tolls fare amount
+| 'ehail_fee',              | - | unidentified, all nulls  **[TO BE DROPPED]** |
+| 'improvement_surcharge',  | $0.30 improvement surcharge assessed on hailed trips at the flag drop.
+| 'total_amount',           | The total amount charged to passengers. Does not include cash tips.
+| 'payment_type',           | 1 = Credit card 2 = Cash 3 = No charge 4 = Dispute 5 = Unknown 6 = Voided trip
+| 'trip_type',              | 1 = Street|hail (inside the city) 2 = Dispatch (outside city)
+| 'congestion_surcharge'    | surcharge for traffic congestion
 
 ---
 *This project is created by Dwika Widyantama / @d-widyantama*
