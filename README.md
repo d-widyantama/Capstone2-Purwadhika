@@ -11,7 +11,7 @@ Feel free to give any feedbacks and reach out to me via [email](dwika.widyantama
 ## Before you dive in
 This project comprises of several part in different format:
 1. [Jupyter Notebook](https://github.com/d-widyantama/Capstone2-Purwadhika/blob/main/V1-EDA-NYCTaxi.ipynb) for more detailed Exploratory Data Analysis 
-2. [Tableau Story]() for Data Visualization and Analysis
+2. [Tableau Story](https://public.tableau.com/views/NYCTaxi-TLCDataAnalysis/Origin-DestinationMap?:language=en-US&:display_count=n&:origin=viz_share_link) for Data Visualization and Analysis
 3. [Tableau Dashboard]()
 4. [Slides Format]()
 
